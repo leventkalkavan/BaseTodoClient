@@ -1,0 +1,13 @@
+<mat-form-field>
+    <mat-label>Başlık</mat-label>
+    <input #txtHeader matInput>
+</mat-form-field>
+
+<mat-form-field>
+    <mat-label>İçerik</mat-label>
+    <input #txtDescription matInput>
+</mat-form-field>
+<section>
+    <div class="example-button-row">
+      <button mat-raised-button color="primary" (click)="create(txtHeader,txtDescription)" class="btn">Ekle</button>
+    </div>
